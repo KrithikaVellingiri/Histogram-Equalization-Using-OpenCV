@@ -125,19 +125,38 @@ plt.subplot(122); plt.hist(img_eq.ravel(),256,range = [0, 256]); plt.title('Hist
 
 ##  Output
 
-### Grayscale Histogram Equalization
+### Input Grayscale image
 
-- Original grayscale image is displayed  
-- Histogram of original grayscale image is plotted  
-- Enhanced image after histogram equalization is displayed  
-- Histogram of enhanced grayscale image shows improved contrast  
+![Output image](output_5_0.png)
 
-### Color Image Histogram Equalization
+### Input Grayscale image range
 
-- Original color image is displayed  
-- Histogram of B, G, R channels is plotted  
-- Enhanced image after HSV-based equalization is displayed  
-- Histogram of enhanced image shows better intensity distribution  
+![Output image](output_6_0.png)
+
+### Input Grayscale image equalized histogram
+
+![Output image](output_8_1.png)
+
+### Histogram of Grayscale images and Color image channels
+### Original image
+
+![Output image](output_9_0.png)
+
+### Equalized image
+
+![Output image](output_15_0.png)
+
+### Equalized histogram
+
+![Output image](output_16_0.png)
+
+### Final output of original image and equalized
+
+![Output image](output_17_0.png)
+
+###  Final output of original image and its histogram equalized
+
+![Output image](output_18_1.png)
 
 ---
 
